@@ -1,0 +1,30 @@
+body{
+    background-color: cadetblue;
+    padding-left:360px;
+}
+
+div{
+    border:1rem solid;
+    width:600px;
+    
+}
+
+
+.next a{
+    
+    position: absolute;left:0px; top:0px;
+    
+        /* ブロック要素化してpaddingを効かせる */
+            /* クリック範囲を広げる */
+    background-color: rgb(7, 252, 158);    /* 背景色（見やすくするため） */
+    text-decoration: none;  
+    
+
+    &:hover{
+          cursor: pointer;
+          background-color: black;
+          display: inline-block; 
+          height: 1800px;
+
+    }
+}
